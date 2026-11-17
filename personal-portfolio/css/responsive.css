@@ -1,5 +1,0 @@
-@media(max-width:860px){
- section{padding:5rem 6vw}.about,.biz{grid-template-columns:1fr}
- #burger{display:block}nav{display:none;position:absolute;top:130%;left:0;right:0;flex-direction:column;padding:1.2rem;border-radius:24px;background:var(--bg2);border:1px solid rgba(255,255,255,.1)}nav.open{display:flex}
- nav a{padding:.6rem 0;font-size:1.05rem}.capsule{opacity:.35}.c1{right:-5%}#grid{grid-template-columns:1fr 1fr}.pill,.btn{min-height:44px}}
-@media(max-width:520px){#grid{grid-template-columns:1fr}#fab{right:12px;bottom:12px}}
