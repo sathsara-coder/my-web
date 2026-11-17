@@ -1,0 +1,5 @@
+@property --a{syntax:"<angle>";inherits:false;initial-value:0deg}
+@keyframes spin{to{--a:360deg}}@keyframes marquee{to{transform:translateX(-50%)}}
+@keyframes bob{50%{translate:0 -20px}}
+.capsule{animation:bob 6s ease-in-out infinite}.c2{animation-delay:-2s}.c3{animation-delay:-4s}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
